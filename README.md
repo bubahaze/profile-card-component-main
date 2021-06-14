@@ -40,7 +40,7 @@ No big philosophy, casting spells on the VSCode, and observing changes on browse
 
 ### What I learned
 
-Obviously a lot, as it is my first completed project in HTML/CSS 😆. Among these things is Flexbox, overlow property, basic Sass...
+Obviously a lot, as it is my first completed project in HTML/CSS 😆. Among these things is Flexbox, overflow property, basic Sass...
 
 ### Continued development
 
