@@ -12,6 +12,9 @@ html {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #19a2ae;
   background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
@@ -93,7 +96,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-top: 1px solid #969696;
+  border-top: 1px solid #bebebe;
   width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -107,11 +110,11 @@ body {
   text-align: center;
 }
 
-.value {
+.gauge {
   font-size: 1.8rem;
 }
 
-.meta {
+.type {
   font-size: 1.3rem;
   font-weight: 400;
   color: #969696;
@@ -121,7 +124,8 @@ body {
   font-size: 1.5rem;
   text-align: center;
   position: relative;
-  top: 98vh;
+  top: 97vh;
+  margin: auto;
 }
 
 .attribution a:hover {

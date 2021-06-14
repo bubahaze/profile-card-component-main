@@ -16,6 +16,7 @@
         }
         
         body {
+            display: flex;
             background-color: $main-background;
             background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
             background-repeat: no-repeat;
@@ -75,7 +76,7 @@
         
         .card-footer {
             display: flex;
-            border-top: 1px solid $light-grey;
+            border-top: 1px solid rgb(190, 190, 190);
             width: 100%;
             justify-content: space-around;
             align-items: center;
@@ -86,11 +87,11 @@
             text-align: center;
         }
         
-        .value {
+        .gauge {
             font-size: 1.8rem;
         }
         
-        .meta {
+        .type {
             font-size: 1.3rem;
             font-weight: 400;
             color: $light-grey;
@@ -100,7 +101,8 @@
             font-size: 1.5rem;
             text-align: center;
             position: relative;
-            top: 98vh;
+            top: 97vh;
+            margin: auto;
             a:hover {
                 color: yellow;
             }
