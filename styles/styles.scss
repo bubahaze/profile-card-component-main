@@ -1,0 +1,107 @@
+        //Variables
+        $main-background: hsl(185, 75%, 39%);
+        $very-dark-desaturated-blue: hsl(229, 23%, 23%);
+        $grey: hsl(227, 10%, 46%);
+        $light-grey: hsl(0, 0%, 59%);
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Kumbh Sans";
+            color: $very-dark-desaturated-blue;
+        }
+        
+        html {
+            font-size: 62.5%;
+        }
+        
+        body {
+            background-color: $main-background;
+            background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+            background-repeat: no-repeat;
+            background-position: right 52vw bottom -60vh, left 50vw top 50vh;
+            overflow: hidden;
+        }
+        
+        .card {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+        }
+        
+        .card-header {
+            img {
+                border-radius: 20px 20px 0 0;
+            }
+        }
+        
+        .card-body {
+            font-size: 1.2rem;
+            padding: 3rem;
+            .name-age {
+                padding-top: 2rem;
+            }
+            .age {
+                color: $light-grey;
+                font-weight: 400;
+            }
+            .city {
+                padding: 1rem;
+                text-align: center;
+                color: $light-grey;
+                font-weight: 400;
+            }
+        }
+        
+        .img-holder {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                margin: -65% 0 0 0;
+                border: 5px solid white;
+                border-radius: 50%;
+            }
+        }
+        
+        .card-footer {
+            display: flex;
+            border-top: 1px solid $light-grey;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2.5rem 1rem 2.5rem 1rem;
+        }
+        
+        .item {
+            text-align: center;
+        }
+        
+        .value {
+            font-size: 1.8rem;
+        }
+        
+        .meta {
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: $light-grey;
+        }
+        
+        .attribution {
+            font-size: 1.5rem;
+            text-align: center;
+            position: relative;
+            top: 98vh;
+            a:hover {
+                color: yellow;
+            }
+        }

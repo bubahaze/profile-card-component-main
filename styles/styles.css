@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans";
+  color: #2d3248;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 52vw bottom -60vh, left 50vw top 50vh;
+  overflow: hidden;
+}
+
+.card {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.card-header img {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+  font-size: 1.2rem;
+  padding: 3rem;
+}
+
+.card-body .name-age {
+  padding-top: 2rem;
+}
+
+.card-body .age {
+  color: #969696;
+  font-weight: 400;
+}
+
+.card-body .city {
+  padding: 1rem;
+  text-align: center;
+  color: #969696;
+  font-weight: 400;
+}
+
+.img-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-holder img {
+  margin: -65% 0 0 0;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #969696;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5rem 1rem 2.5rem 1rem;
+}
+
+.item {
+  text-align: center;
+}
+
+.value {
+  font-size: 1.8rem;
+}
+
+.meta {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #969696;
+}
+
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  top: 98vh;
+}
+
+.attribution a:hover {
+  color: yellow;
+}
+/*# sourceMappingURL=styles.css.map */
